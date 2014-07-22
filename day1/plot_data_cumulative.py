@@ -28,9 +28,6 @@ for i in range(1,len(ys)):
     ys[i]+=ys[i-1]
 for i in range(1,len(ws)):
     ws[i]+=ws[i-1]
-print ys[:8]
-print '***'
-print ws[:8]
 plt.plot(xs,ys,label='Obama')
 plt.plot(zs,ws,label='McCain')
 plt.legend(loc='upper cente', ncol=4)
